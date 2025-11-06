@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Website</title>
+  </head>
+  <body>
+    
+    <style>
+        body{
+            padding: 0; max-width: 1200px; margin: 0 auto
+        }
+        header {
+
+        background-color: white;
+        width: 100%;
+        height: 68px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1200px; 
+        margin: 0 auto;
+        font-size: 24px;
+        position: fixed;
+        top: 0px;
+        }
+        #header-icon{
+            padding-left: 16px;
+        }
+        #header-mail{
+            padding-right: 16px;
+        }
+
+        .row{
+            display: flex;justify-content: space-evenly; padding-top: 60px
+        }
+        .row-item{
+            display: flex;
+            flex-direction: column;
+            width: 280px;
+            text-align: center;
+            gap: 20px;
+        }
+        #pagination{
+            padding: 48px 0px; 
+            display: flex; 
+            justify-content: center;
+            font-size: 15px
+        }
+        #pagination a {
+            text-decoration: none;
+            height: 40px;
+            width: 40px;
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            color: black;
+        }
+
+    </style>
+      "
+    >
+    <header>
+      <span id="header-icon">☰</span>
+      <span>My Food</span>
+      <span id="header-mail">Mail</span>
+    </header>
+
+
+    <div 
+    class="row">
+      <div
+        class="row-item">
+          <img src="sandwich.jpg" alt="sandwich" width="270" height="400" />
+          <span style="font-size: 24px;">The Perfect Sandwich, A Real NYC Classic</span>
+          <span style="font-size: 15px;"
+            >Just some random text, lorem ipsum text praesent tincidunt ipsum
+            lipsum.</span
+          >
+        </div>
+
+        <div class="row-item">
+          <img src="/pictures/steak.jpg" alt="steak" width="270" height="400" />
+          <span style="font-size: 24px;">Let Me Tell You About This Steak</span>
+          <span style="font-size: 15px;"
+            >Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</span">
+        </div>
+        <div class="row-item"
+        >
+          <img src="/pictures/cherries.jpg" alt="steak" width="270" height="400" />
+          <span style="font-size: 24px;">Cherries, interrupted</span>
+          <span style="font-size: 15px;"
+            >Lorem ipsum text praesent tincidunt ipsum lipsum.
+
+What else?</span"></div>
+        <div class="row-item"
+        >
+          <img src="/pictures/wine.jpg" alt="steak" width="270" height="400" />
+          <span style="font-size: 24px;">Once Again, Robust Wine and Vegetable Pasta</span>
+          <span style="font-size: 15px;"
+            >Lorem ipsum text praesent tincidunt ipsum lipsum.</span"></div>
+      
+    </div>
+
+    <div style=" display: flex;justify-content: space-evenly; padding-top: 60px;">
+      
+        <div
+           class="row-item"
+        >
+          <img src="/pictures/popsicle.jpg" alt="sandwich" width="270" height="400" />
+          <span style="font-size: 24px;">All I Need Is a Popsicle</span>
+          <span style="font-size: 15px;"
+            >Lorem ipsum text praesent tincidunt ipsum lipsum.</span
+          >
+        </div>
+
+        <div 
+            class="row-item"
+        >
+          <img src="/pictures/salmon.jpg" alt="steak" width="270" height="400" />
+          <span style="font-size: 24px;">Salmon For Your Skin</span>
+          <span style="font-size: 15px;"
+            >Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</span">
+        </div>
+        <div class="row-item"
+        >
+          <img src="sandwich.jpg" alt="steak" width="270" height="400" />
+          <span style="font-size: 24px;">The Perfect Sandwich, A Real Classic</span>
+          <span style="font-size: 15px;"
+            >Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</span"></div>
+        <div class="row-item"
+        
+        >
+          <img src="/pictures/croissant.jpg" alt="steak" width="270" height="400" />
+          <span style="font-size: 24px;">Le French</span>
+          <span style="font-size: 15px;"
+            >Lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</span"></div>
+      
+    </div>
+    <div id="pagination">
+        <a href="#" >«</a>
+        <a href="#" >1</a>
+        <a href="#" >2</a>
+        <a href="#" >3</a>
+        <a href="#" >4</a>
+        <a href="#" >»</a>
+        
+    </div>
+  </body>
+</html>
